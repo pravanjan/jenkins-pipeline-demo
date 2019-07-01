@@ -33,7 +33,7 @@ class CheckoutSpec extends Specification {
 
     }
 
-    def "Test Class partly  with spy"(){
+    def "Test Class partly  with spy change here"(){
         PaymentMethod paymentmethod = Mock(PaymentMethod)
         Item item = Stub(Item)
         List<Item> itemList = new ArrayList<>()
