@@ -46,7 +46,7 @@ class CheckoutSpec extends Specification {
         when :
         String result  = checkout.verifycheckout()
         then :
-        result == "checkout payments verified"
+        result == "checkout payments it should break"
 
 
     }
