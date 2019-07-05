@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing.. or its not ture'
+                echo 'Testing.. or its not ture boss'
             }
         }
         stage('Deploy') {
