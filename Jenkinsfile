@@ -1,9 +1,21 @@
 pipeline {
-    agent { docker { image 'golang' } }
+    agent any
+
     stages {
-        stage('build') {
+        stage('Build') {
             steps {
-                sh 'go version'
+                echo 'Building..'
             }
         }
+        stage('Test') {
+            steps {
+                echo 'Testing.. or its not ture boss'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
 }
